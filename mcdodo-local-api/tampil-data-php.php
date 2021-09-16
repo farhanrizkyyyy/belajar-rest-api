@@ -1,3 +1,11 @@
+<?php
+
+$data = file_get_contents("resource/menu.json");
+$menu = json_decode($data, true);
+$menu = $menu["Menu"];
+
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -37,18 +45,28 @@
   </nav>
 
   <div class="container mt-4">
-    <h1>All Menu</h1>
+    <h1 id="header">All Menu</h1>
 
     <hr>
 
-    <div id="content">
-      
+    <div class="row">
+      <?php foreach ($menu as $row) : ?>
+        <div class="col-md-4">
+          <div class="card mb-3 mt-3">
+            <img src="<?= $row["Gambar"]; ?>" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title"><?= $row["Nama"]; ?></h3>
+              <p class="card-text"><?= $row["Deskripsi"]; ?></p>
+              <h5 class="card-title">Rp. <?= $row["Harga"]; ?></h5>
+              <a href="#" class="btn btn-primary mt-3">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+      <?php endforeach; ?>
     </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="js/script.js"></script>
-</body>
 
 </html>
