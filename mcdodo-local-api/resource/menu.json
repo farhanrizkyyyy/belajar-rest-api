@@ -1,0 +1,74 @@
+{
+  "Menu": [
+    {
+      "Kategori": "Makanan",
+      "Nama": "Big Mac",
+      "Harga": 25000,
+      "Deskripsi": "Burger Ikonik McDonald's. Dua lapis daging sapi gurih disajikan dengan saus spesial, selada segar, keju, acar timun, bawang, diapit roti bertabur wijen.",
+      "Gambar": "img/big-mac.png"
+    },
+    {
+      "Kategori": "Makanan",
+      "Nama": "Cheeseburger",
+      "Harga": 20000,
+      "Deskripsi": "Roti burger, daging sapi, keju, saus tomat, acar, potongan bawang dan mustard.",
+      "Gambar": "img/cheese-burger.png"
+    },
+    {
+      "Kategori": "Makanan",
+      "Nama": "NcNuggets",
+      "Harga": 20000,
+      "Deskripsi": "Nugget ayam McDonald's dan saus Sweet & Sour atau Barbeque pilihan Anda. Tersedia dalam pilihan 4, 6 dan 9 pieces.",
+      "Gambar": "img/mcnuggets.png"
+    },
+    {
+      "Kategori": "Makanan",
+      "Nama": "Spicy Chicken Bites",
+      "Harga": 17000,
+      "Deskripsi": "Daging ayam goreng renyah dengan sensasi pedas.",
+      "Gambar": "img/spicy-chicken-bites.png"
+    },
+    {
+      "Kategori": "Minuman",
+      "Nama": "Fanta McFloat",
+      "Harga": 11000,
+      "Deskripsi": "Minuman berkarbonasi dengan rasa strawberry dengan tambahan es krim vanilla McDonald's.",
+      "Gambar": "img/fanta-mcfloat.png"
+    },
+    {
+      "Kategori": "Minuman",
+      "Nama": "Coca-Cola McFloat",
+      "Harga": 11000,
+      "Deskripsi": "Minuman berkarbonasi dengan rasa cola dengan tambahan es krim vanilla McDonald's.",
+      "Gambar": "img/coca-cola-mcfloat.png"
+    },
+    {
+      "Kategori": "Minuman",
+      "Nama": "Iced Coffee Float",
+      "Harga": 15000,
+      "Deskripsi": "Es kopi 100% Arabika dengan susu yang segar dan tambahan es krim vanilla khas McDonald's.",
+      "Gambar": "img/iced-coffee-float.png"
+    },
+    {
+      "Kategori": "Minuman",
+      "Nama": "Iced Milo",
+      "Harga": 15000,
+      "Deskripsi": "Susu coklat Milo yang segar dan bernutrisi.",
+      "Gambar": "img/iced-milo.png"
+    },
+    {
+      "Kategori": "Camilan",
+      "Nama": "French Fries",
+      "Harga": 11000,
+      "Deskripsi": "Kentang goreng renyah dan gurih.",
+      "Gambar": "img/french-fries.png"
+    },
+    {
+      "Kategori": "Camilan",
+      "Nama": "Sweet Corn",
+      "Harga": 11000,
+      "Deskripsi": "Bulir jagung yang direbus hingga menghasilkan rasa manis yang alami dan bernutrisi.",
+      "Gambar": "img/sweet-corn.png"
+    }
+  ]
+}

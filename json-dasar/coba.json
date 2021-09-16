@@ -1,0 +1,22 @@
+[
+  {
+    "Nama": "Farhan Rizky",
+    "Nim": "1197050041",
+    "Fakultas": "Sains dan Teknologi",
+    "Jurusan": "Teknik Informatika",
+    "Angkatan": 2019,
+    "Hobi": ["Makan", "Minum", "Tidur"],
+    "Ortu": {
+      "Ibu": "Elly Malia",
+      "Ayah": "Wawan Setiawan"
+    }
+  },
+  {
+    "Nama": "Farhan Rizky",
+    "Nim": "1197050041",
+    "Fakultas": "Sains dan Teknologi",
+    "Jurusan": "Teknik Informatika",
+    "Angkatan": 2019,
+    "Hobi": ["Makan", "Minum", "Tidur"]
+  }
+]
